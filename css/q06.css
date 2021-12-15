@@ -1,0 +1,82 @@
+#main {
+    background-color: red;
+    width: 800px;
+    height: 800px;
+    clear:left;
+    float: left;
+}
+#top {
+    background-color: yellow;
+    width: 800px;
+    height: 100px;
+}
+#mid {
+    background-color: green;
+    width: 800px;
+    height: 100px;
+}
+#bot {
+    background-color: blue;
+    width: 800px;
+    height: 500px;
+}
+#top-left {
+    background-color:rgb(228, 133, 24);
+    width:200px;
+    height:100px;
+    float:left;
+}
+#top-right {
+    background-color:rgb(89, 49, 197);
+    width:600px;
+    height:100px;
+    float:left;
+}
+#mind1 {
+    background-color:yellow;
+    width:150px;
+    height:100px;
+    float:left;
+}
+#mind2 {
+    background-color:rgb(141, 60, 104);
+    width:150px;
+    height:100px;
+    float:left;
+}
+#mind3 {
+    background-color:rgb(212, 137, 40);
+    width:150px;
+    height:100px;
+    float:left;
+}
+#mind4 {
+    background-color:skyblue;
+    width:150px;
+    height:100px;
+    float:left;
+}
+#mind5 {
+    background-color:rgb(184, 34, 67);
+    width:150px;
+    height:100px;
+    float:left;
+}
+#bot-left {
+    background-color:rgb(32, 105, 134);
+    width:200px;
+    height:500px;
+    float:left;
+}
+#bot-right {
+    background-color:rgb(65, 173, 146);
+    width:600px;
+    height:500px;
+    float:left;
+}
+#sub {
+    background-color:skyblue;
+    width:200px;
+    height:800px;
+    float:left;
+}

@@ -1,0 +1,30 @@
+* { color: pink; background-color: gray; }
+h1 { text-align: center; }
+.ca { color: green; }
+#ia { color: yellow; }
+p, b { color: blue; }
+h1 {
+    /* font-size: 3em; */
+    text-shadow: 4px 4px 2px black;
+    font-size: 400%;
+    }
+.ca {
+    /* font-size: 3em; */
+    font-size: 400%;
+    }
+#ia {
+    /* font-size: 3em; */
+    font-size: 400%;
+    }
+p,b {
+        /* font-size: 3em; */
+        text-shadow: 4px 4px 2px red;
+        font-size: 400%;
+        border: 1px pink;
+    }
+h1 { font-style: italic}
+p {
+    /* font-weight: bold; */
+    /* 수치로는 작게는 200 에서 800 까지 */
+    font-weight: 600;
+    }
