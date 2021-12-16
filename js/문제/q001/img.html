@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ko">
+<title>방문할때마다 변하는 이미지</title>
+<script language = "javascript">
+	var imgArray = new Array();
+	imgArray[0] = "aa.jpg";
+	imgArray[1] = "cat1.jpg";
+	imgArray[2] = "ddd.jpg";
+	imgArray[3] = "nn.jpg";
+    imgArray[4] = "gg.jpg";
+    imgArray[5] = "pp.jpg";
+	
+	function showImage(){
+		var imgNum = Math.round(Math.random()*6);
+		var objImg = document.getElementById("introImg");
+		objImg.src = imgArray[imgNum];
+	}
+</script>
+</head>
+<body onload = "showImage()">
+	<img id = "introImg" border="0">
+</body>
+</html>
