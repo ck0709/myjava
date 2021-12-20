@@ -46,9 +46,9 @@ function rpcInputButtonClick(){
         userRpc = rpcInputText.value;
         if(userRpc == "가위" || userRpc == "바위" || userRpc == "보"){
             break;  // while 무한루프를 빠져나감
-        // } else {
-        //     alert("장난치지마세요");
-        // }
+        } else {
+            alert("장난치지마세요");
+        }
     }
     
     comRpc = Math.floor(Math.random()*3+1); // 컴퓨터 난수 발생 시키기 (1~3)
@@ -163,4 +163,4 @@ function rpcInputButtonClick(){
 
     // 결과 출력
     rpcResultScreen.value = resultString;
-}
+    }
