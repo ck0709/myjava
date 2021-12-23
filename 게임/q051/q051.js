@@ -20,14 +20,14 @@ function Master(name,hp,attack){
         hr();
     }
 }
-var mon = new Monster("오크전사",23820,1579);
-var user = new Master("냥냥펀치",15783,2379);
+var mon = new Monster("오크전사",200,10);
+var user = new Master("냥냥펀치",300,20);
 
 mon.info();
 user.info();
 
 hr();
-dw("전투 시작");
+dw("1라운드 시작");
 hr();
 mon.hp = mon.hp - user.attack;
 user.hp = user.hp - mon.attack;
