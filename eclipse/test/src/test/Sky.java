@@ -13,7 +13,7 @@ import test.display.Title;
 
 public class Sky {
 	void proc() {
-		// 회원정보 입력
+		
 		ArrayList<Menu> menus = new ArrayList<Menu>();
 		menus.add(new Menu("아메리카노", "2500원","cafe"));
 		menus.add(new Menu("카페라떼", "3500원", "cafe"));
@@ -31,27 +31,27 @@ public class Sky {
 			System.out.print("명령을 입력: (1:메뉴목록 보기 / 2:메뉴추가 / 3:메뉴삭제 / 4:메뉴수정 / e:프로그램 종료)");
 			String cmd = sc.next();
 			switch (cmd) {
-			case "1": // 회원목록
-				MenuList menuMemberList = new MenuList();
-				menuMemberList.proc(menus);				
+			case "1": 
+				MenuList menuList = new MenuList();
+				menuList.proc(menus);				
 				break;
-			case "2": // 회원등록
-				MenuReg menuMemberReg = new MenuReg();
-				menuMemberReg.proc(menus);
+			case "2": 
+				MenuReg menuReg = new MenuReg();
+				menuReg.proc(menus);
 				break;
-			case "3": // 회원삭제
-				MenuDel menuMemberDel = new MenuDel();
-				menuMemberDel.proc(menus);	
+			case "3": 
+				MenuDel menuDel = new MenuDel();
+				menuDel.proc(menus);	
 				break;
-			case "4": // 회원수정
-				MenuEdit menuMemberEdit = new MenuEdit();
-				menuMemberEdit.proc(menus);	
+			case "4": 
+				MenuEdit menuEdit = new MenuEdit();
+				menuEdit.proc(menus);	
 				break;
-			case "e": // 프로그램 종료
+			case "e": 
 				MenuExit menuExit = new MenuExit();
 				menuExit.proc();	
 				
-				isNotEnd = false;	// 종료를 위한 변수 전달
+				isNotEnd = false;	
 				break;
 			default:
 				System.out.println("잘못된 명령입니다.");

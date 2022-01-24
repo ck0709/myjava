@@ -20,7 +20,7 @@ public class MenuDel {
 		if(delIndex == -1) {
 			System.out.println(delName + " 메뉴는 없습니다.");
 		} else {
-			menus.remove(delIndex);	// 삭제
+			menus.remove(delIndex);	
 			System.out.println(delName + " 메뉴 정보가 삭제되었습니다.");
 		}
 	}
